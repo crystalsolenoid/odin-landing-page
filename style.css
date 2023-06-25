@@ -89,6 +89,9 @@ header {
 
 header ul {
   display: flex;
+
+  padding: 0;
+  list-style: none;
 }
 
 /* Hero layout */
@@ -109,6 +112,9 @@ header ul {
 .info ul {
   display: flex;
   justify-items: center;
+
+  padding: 0;
+  list-style: none;
 }
 
 /* Quote layout */
