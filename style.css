@@ -79,6 +79,15 @@ img {
 
 /* Layout */
 
+body {
+  margin: 0;
+}
+
+header, footer, main > * {
+  margin: 0;
+  padding: 0 15%;
+}
+
 /* Header layout */
 
 header {
