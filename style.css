@@ -161,6 +161,20 @@ header ul {
 
 /* Quote layout */
 
+.quote {
+  padding-block: 4rem;
+}
+
+.quote blockquote {
+  margin-block: 0;
+  padding-inline: 4ch;
+}
+
+.quote figcaption {
+  text-align: right;
+  margin-right: 20%;
+}
+
 /* Call to action layout */
 
 .action {
