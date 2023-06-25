@@ -60,4 +60,19 @@ header h1 {
   font-style: italic;
 }
 
+/* Images */
 
+img {
+  display: block;
+  background-color: var(--off-bright); /* For placeholder image */
+}
+
+.hero img {
+  width: 300px;
+  height: 150px;
+}
+
+.info img {
+  width: 100px;
+  height: 100px;
+}
