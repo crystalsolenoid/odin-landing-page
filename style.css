@@ -181,6 +181,18 @@ header ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  gap: 2ch;
+  margin: 6rem 15%;
+  padding: 3rem 5%;
+}
+
+.action h2, .action p {
+  margin: 0;
+}
+
+.action button {
+  flex-shrink: 0;
 }
 
 /* Footer layout */
