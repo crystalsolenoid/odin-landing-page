@@ -73,8 +73,8 @@ img {
 }
 
 .info img {
-  width: 100px;
-  height: 100px;
+  width: 160px;
+  height: 160px;
 }
 
 /* Layout */
@@ -130,14 +130,33 @@ header ul {
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  padding-bottom: 4rem;
 }
 
 .info ul {
   display: flex;
-  justify-items: center;
+  justify-content: center;
+  gap: 4ch;
 
   padding: 0;
   list-style: none;
+}
+
+.info li {
+  flex-basis: 160px;
+
+}
+
+.info figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+
+  margin: 0;
+
+  text-align: center;
 }
 
 /* Quote layout */
