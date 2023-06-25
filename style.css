@@ -60,7 +60,12 @@ header h1 {
   font-style: italic;
 }
 
-/* Images */
+button {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+/* Images and Buttons */
 
 img {
   display: block;
@@ -75,6 +80,18 @@ img {
 .info img {
   width: 160px;
   height: 160px;
+}
+
+button {
+  padding: 0.5rem 3ch;
+  border-width: 0;
+  border-radius: 12px;
+}
+
+.action button {
+  border-color: var(--bright);
+  border-width: 2px;
+  border-style: solid;
 }
 
 /* Layout */
