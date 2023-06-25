@@ -197,3 +197,7 @@ header ul {
 
 /* Footer layout */
 
+footer {
+  padding-block: 2rem;
+  text-align: center;
+}
